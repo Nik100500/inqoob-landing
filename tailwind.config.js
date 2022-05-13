@@ -1,0 +1,88 @@
+module.exports = {
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+  ],
+  theme: {
+    screens: {
+      xs: '400px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+      '3xl': '1900px',
+    },
+    container: {
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1100px',
+        '2xl': '1200px',
+      },
+      padding: '1rem'
+    },
+    fontSize: {
+      'xs': ['.75rem', '1rem'],
+      'sm': ['.875rem', '1.25rem'],
+      'base': ['1rem', '1.5rem'],
+      'lg': ['1.125rem', '1.75rem'],
+      'xl': ['1.25rem', '1.75rem'],
+      '2xl': ['1.5rem', '2rem'],
+      '3xl': ['1.875rem', '2.25rem'],
+      '4xl': ['2.25rem', '2.5rem'],
+      '5xl': ['3rem', '1'],
+      '6xl': ['3.75rem', '1'],
+      '7xl': ['4.5rem', '1'],
+      '8xl': ['6rem', '1'],
+      '9xl': ['8rem', '1'],
+      'header': ['7.5rem', '1'],
+      'subheader': ['2.5rem', '1'],
+      'five': ['3.625rem', '1'],
+      '18px': ['1.125rem', '1.5rem'],
+      '20px': ['1.25rem', '1'],
+      '22px': ['1.375rem', '1'],
+      '24px': ['1.5rem', '1'],
+      '25px': ['1.5625rem', '1'],
+      '30px': ['1.875rem', '1'],
+      '36px': ['2.25rem', '1'],
+      '40px': ['2.5rem', '1'],
+      '46px': ['2.875rem', '1'],
+      '48px': ['3rem', '1'],
+      '50px': ['3.125rem', '1.25'],
+      '56px': ['3.5rem', '1'],
+      '84px': ['5.25rem', '1'],
+      '120px': ['7.5rem', '1'],
+      'normal': ['1rem', '1.75rem'],
+      'small': ['.875rem', '1'],
+     },
+    extend: {
+      colors: {
+        'green': {
+          'inqoob': '#8EFF6C',
+        },
+        'yellow': {
+          'inqoob': '#F9ED37',
+        },
+        'gray': {
+          'inqoob': '#CFCFCF',
+          'inqoob-bg': '#8f9193',
+        },
+        'blue': {
+          'inqoob': '#1583FE',
+          'inqoob-hover': '#1583FE',
+          'inqoob-active': '#1583FE',
+          'inqoob-bg': '#002647',
+        },
+        'black': {
+          'inqoob': '#10151A',
+        },
+      },
+    },
+  },
+  plugins: [],
+}
