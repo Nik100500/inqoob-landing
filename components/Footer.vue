@@ -7,7 +7,7 @@
             <LogoInqoob />
           </div>
           <div class="text-sm font-light">
-            © 2022 inqoob Inc. <br>Terms and Privacy Policy
+            © 2022 inqoob Inc. <br><a class="hover:underline" target="_blank" href="https://inqoob.com/terms">Terms</a> & <a class="hover:underline" target="_blank" href="https://inqoob.com/policy">Privacy Policy</a>
           </div>
         </div>
         

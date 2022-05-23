@@ -14,7 +14,7 @@
         <div>Subscribe to our social networks</div>
         <div class="flex flex-row space-x-4 mt-3 sm:mt-0">
           
-          <a target="_blank" href="https://instagram.com/eng_inqoob?utm_medium=copy_link"><IconTasksInstagram  class="w-12 h-12 xs:h-16 xs:w-16 sm:w-12"/></a>
+          <a target="_blank" href="https://www.instagram.com/inqoob_english/"><IconTasksInstagram  class="w-12 h-12 xs:h-16 xs:w-16 sm:w-12"/></a>
           <a target="_blank" href="https://www.facebook.com/groups/686605689152886/"><IconTasksFacebook  class="w-12 h-12 xs:h-16 xs:w-16 sm:w-12"/></a>
           <a target="_blank" href="https://t.me/inqoob_international"><IconTasksTelegram  class="w-12 h-12 xs:h-16 xs:w-16 sm:w-12"/></a>
         </div>
@@ -150,7 +150,7 @@
           Send the link for checking
         </div>
         <div class="flex flex-row space-x-4 sm:mt-0">
-          <a target="_blank" href="https://instagram.com/eng_inqoob?utm_medium=copy_link"><IconTasksInstagram  class="w-12 h-12 xs:h-16 xs:w-16 sm:w-12"/></a>
+          <a target="_blank" href="https://www.instagram.com/inqoob_english/"><IconTasksInstagram  class="w-12 h-12 xs:h-16 xs:w-16 sm:w-12"/></a>
         </div>
       </div>
       <div class="text-yellow-inqoob font-bold w-2/12 hidden flex-col justify-center items-center text-center sm:flex">
