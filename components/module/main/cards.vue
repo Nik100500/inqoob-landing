@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row items-end lg:space-x-6">
       <div class=" flex flex-col w-full lg:w-1/3 relative basic-card order-2 lg:order-1 mb-6 lg:mb-0">
         <div class="cards-background absolute left-0 top-0 w-full h-full z-0"></div>  
-        <div class="w-full h-full px-6 pb-6 pt-2 z-10">
+        <div class="w-full h-full p-6 z-10">
           <div class="text-120px opacity-20 font-bold mb-8">2</div>
           <div class="text-30px sm:text-36px font-bold mb-2">$700</div>
           <div class="mb-6">to the card and $100 to the account</div>
@@ -24,7 +24,7 @@
       <div class=" flex flex-col w-full lg:w-1/3 relative long-card order-1 lg:order-2 mb-6 lg:mb-0">
         <div class="ellipse-yellow"></div>
         <div class="cards-background absolute left-0 top-0 w-full h-full z-0"></div>  
-        <div class="w-full h-full px-6 pb-6 pt-2 z-10">
+        <div class="w-full h-full p-6 z-10">
           <div class="text-120px opacity-20 font-bold mb-8">1</div>
           <div class="text-30px sm:text-36px font-bold mb-2">$1000</div>
           <div class="mb-6">to the card and $100 to the account</div>
@@ -44,7 +44,7 @@
       </div>
       <div class=" flex flex-col w-full lg:w-1/3 relative basic-card order-3">
         <div class="cards-background absolute left-0 top-0 w-full h-full z-0"></div>  
-        <div class="w-full h-full px-6 pb-6 pt-2 z-10">
+        <div class="w-full h-full p-6 z-10">
           <div class="text-120px opacity-20 font-bold mb-8">3</div>
           <div class="text-30px sm:text-36px font-bold mb-2">$500</div>
           <div class="mb-6">to the card and $100 to the account</div>
@@ -68,7 +68,9 @@
       <div class="flex w-full lg:w-1/2 relative">
         <div class="cards-background absolute left-0 top-0 w-full h-full z-0"></div> 
         <div class=" flex flex-row w-full items-start h-full p-6 z-10"> 
-          <div class="text-40px opacity-20 font-bold mr-10">4-5</div> 
+          <div class="text-40px opacity-20 font-bold mr-10 w-12 sm:w-24">
+            4<span class="hidden sm:inline-block">-</span><span class="block sm:hidden"></span>5
+          </div> 
           <div class="flex flex-col">
 
             <div class="text-30px sm:text-36px font-bold mb-2">$150</div>
@@ -80,7 +82,9 @@
       <div class="flex w-full lg:w-1/2 relative">
         <div class="cards-background absolute left-0 top-0 w-full h-full z-0"></div> 
         <div class=" flex flex-row w-full items-start h-full p-6 z-10"> 
-          <div class="text-40px opacity-20 font-bold mr-10">6-10</div>
+          <div class="text-40px opacity-20 font-bold mr-10 w-12 sm:w-24">
+            6<span class="hidden sm:inline-block">-</span><span class="block sm:hidden"></span>10
+          </div>
           <div class="flex flex-col">
 
             <div class="text-30px sm:text-36px font-bold mb-2">$100</div>

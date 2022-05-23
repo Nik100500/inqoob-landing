@@ -25,6 +25,17 @@ export default {
   css: [
     '@/assets/css/main.css',
   ],
+/* 
+  dir: {
+    assets: 'challenge',
+    app: 'challenge',
+    layouts: 'challenge',
+    middleware: 'challenge',
+    pages: 'challenge',
+    static: 'challenge',
+    store: 'challenge'
+  },
+ */
 
 
   target: 'static',
@@ -69,5 +80,28 @@ export default {
         autoprefixer: {},
       },
     },
+    html: {
+      minify: 
+      {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true
+      }
+    },
+    publicPath: '/challenge/',
+    splitChunks: {
+      layouts: false,
+      pages: false,
+      commons: false
+    }
+  },
+  generate: {
+    exclude: ['/challenge']
   }
 }

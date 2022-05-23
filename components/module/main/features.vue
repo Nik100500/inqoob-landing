@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto text-white">
-    <div class="text-25px sm:text-50px font-semibold text-center max-w-xl mx-auto my-24">
+    <div class="text-25px sm:text-50px font-bold text-center max-w-xl mx-auto mt-16 mb-12 sm:my-24 uppercase sm:lowercase">
       Amazing Features <span class="hidden sm:block">with inqoob</span> 
     </div>
 

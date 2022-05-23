@@ -56,7 +56,7 @@ module.exports = {
       '50px': ['3.125rem', '1.25'],
       '56px': ['3.5rem', '1'],
       '84px': ['5.25rem', '1'],
-      '120px': ['7.5rem', '1'],
+      '120px': ['10rem', '0.65'],
       'normal': ['1rem', '1.75rem'],
       'small': ['.875rem', '1'],
      },
@@ -74,7 +74,7 @@ module.exports = {
         },
         'blue': {
           'inqoob': '#1583FE',
-          'inqoob-hover': '#1583FE',
+          'inqoob-hover': '#1070DC',
           'inqoob-active': '#1583FE',
           'inqoob-bg': '#002647',
         },
